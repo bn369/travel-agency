@@ -1,0 +1,55 @@
+
+.card-e1 {
+  background-image: url(../assets/images/bali.jpg);
+}
+
+.card-e2 {
+  background-image: url(../assets/images/egypt.jpg);
+}
+
+.card-e3 {
+  background-image: url(../assets/images/barcelona.jpg);
+}
+
+.card-e4 {
+  background-image: url(../assets/images/japan.jpg);
+}
+
+.card-e1, .card-e2, .card-e3, .card-e4 {
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 10px 15px;
+  vertical-align: top;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.text-wrapper h3 {
+  color: #fff;
+  opacity: 1;
+  text-align: center;
+  margin: 4px 0;
+}
+
+.text-wrapper {
+  background-color: #000;
+  opacity: 0;
+  padding-left: 6px;
+  padding-right: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-radius: 10px;
+  transition: opacity 0.3s;
+}
+
+.text-wrapper:hover {
+  opacity: 0.8;
+}

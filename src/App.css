@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'sans-serif';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(assets/images/bgc-main3.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.success {
+  width: 100%;
+  height: 100vh;
+  background-image: url(assets/images/success.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.underwater {
+  width: 100%;
+  height: 100vh;
+  background-image: url(assets/images/underwater.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  position: relative;
+}
+.together {
+  width: 100%;
+  height: 100vh;
+  background-image: url(assets/images/together.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.container-2 {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(assets/images/about.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 768px) {
+  .container,
+  .success,
+  .underwater,
+  .together {
+    padding-left: 2%; /* Adjust as needed */
+    padding-right: 2%; /* Adjust as needed */
   }
 }

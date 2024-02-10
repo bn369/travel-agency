@@ -1,0 +1,27 @@
+.customers-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+}
+
+.customers-wrapper div {
+  flex: 1;
+  background-color: rgb(35, 37, 37);
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-start; */
+  overflow: hidden;
+  padding: 1% 5%;
+}
+
+.image-wrapper {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.customers-wrapper img {
+  width: 35%;
+  object-fit: contain;
+}

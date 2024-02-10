@@ -1,0 +1,99 @@
+.form-wrapper {
+  width: 500px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  border-radius: 14px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 18px 28px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-wrapper label {
+  text-align: left;
+  display: block;
+}
+
+.warning {
+  color: red;
+}
+
+.form-wrapper input, .form-wrapper select, .form-wrapper textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 12px 0;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  display: block;
+  color: black;
+}
+
+.form-wrapper select {
+  width: 25%;
+}
+
+.hotel {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 14px;
+  align-items: center;
+}
+
+.hotel p {
+  margin-right: 14px;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.check-box{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.check-box div {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.check-box label {
+  margin-left: 4px;
+  padding-right: 8px;
+}
+
+.check-box label {
+  white-space: nowrap;
+}
+
+.check-box input {
+  margin-right: 30px;
+  transform: scale(1.5);
+}
+
+.form-wrapper button {
+  background-color: rgb(14, 1, 49);
+  color:rgb(235, 230, 165);
+  cursor: pointer;
+  font-size: 22px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid white;
+  margin-top:12px;
+}
+
+.form-wrapper button:hover {
+  background-color: #2d2558;
+}
